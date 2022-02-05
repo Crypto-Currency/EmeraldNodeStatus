@@ -42,22 +42,6 @@ Below is an example `crontab` entry to call the script every five minutes via `c
 */5 *  *   *   *  curl -Ssk https://127.0.0.1/stats.php > /dev/null
 ```
 
-## Node Profile Icons
-
-To configure profile icons for your node, just set them up using the `node_links` variable in `config.php`. The format is a multi-dimensional array, as below. Icon images for Bitnodes.io and Blockchain.info are included in the `img` directory.
-
-```
-    'node_links' => array (
-        array (
-            'name' => 'Bitnodes.io',
-            'image => 'img/bitnodes.io.png'
-            'link  => 'https://getaddr.bitnodes.io/nodes/<IP>-<PORT>/
-        ),
-        array (
-            ...
-        )
-    ),
-```
 
 ## Contributing
 
@@ -79,7 +63,7 @@ The `config.php` file also contains lots of options to control how the applicati
 | `rpc_user`   | String  | `rpcuser`   | Username for RPC calls             |
 | `rpc_pass`   | String  | `rpcpass`   | Password for RPC calls             |
 | `rpc_host`   | String  | `localhost` | Which RPC host to connect to       |
-| `rpc_port`   | String  | `8332`      | Port to use for the RPC connection |
+| `rpc_port`   | String  | `12128`      | Port to use for the RPC connection |
 | `rpc_ssl`    | Boolean | `false`     | Enables SSL for the RPC connection |
 | `rpc_ssl_ca` | String  | `null`      | The SSL CA chain file              |
 
@@ -89,7 +73,7 @@ The `config.php` file also contains lots of options to control how the applicati
 |-------------------------|---------|-----------|---------------------------------------------|
 | `display_donation_text` | Boolean | `true`    | Display text to encourage donations         |
 | `donation_address`      | String  | `not_set` | Emerald address to advertise for donations  |
-| `donation_amount`       | String  | `0.001`   | Donation amount - not currently implemented |
+| `donation_amount`       | String  | `0.1`   | Donation amount - not currently implemented |
 
 ### Peers
 
@@ -163,6 +147,6 @@ The `config.php` file also contains lots of options to control how the applicati
 ## Licensing
 
 * Copyright (C) 2015 [Craig Watson](http://www.cwatson.org)
-* Forked and modified 2018 by [Paraskewas Zormbalas](https://www.emeraldcrypto.de)
+* Forked and modified 2018 by [Pazor](https://www.emeraldcrypto.de)
 * Distributed under the terms of the [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0) - see [LICENSE file](https://github.com/craigwatson/bitcoind-status/blob/master/LICENSE) for details.
 * [EasyBitcoin-PHP library](https://github.com/aceat64/EasyBitcoin-PHP) is reproduced under the terms of the [MIT licence](http://opensource.org/licenses/MIT) and is used from commit [670414e](https://github.com/aceat64/EasyBitcoin-PHP/tree/670414e1b733e11bb7bdf4fcb17169853301716b).

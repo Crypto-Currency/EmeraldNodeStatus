@@ -4,7 +4,7 @@
  *
  * @category File
  * @package  EmeraldStatus
- * @author   Paraskewas Zormbalas <info@emeraldcrypto.de>
+ * @author   Pazor <info@emeraldcrypto.de>
  * forked from Craig Watson <craig@cwatson.org> https://github.com/craigwatson/bitcoind-status
  * @license  https://www.apache.org/licenses/LICENSE-2.0 Apache License, Version 2.0
  * @link     https://github.com/Crypto-Currency/EmeraldNodeStatus
