@@ -7,7 +7,7 @@ This is a small PHP application designed to display status and information from 
 1. [Requirements](#requirements)
 1. [Getting Started](#getting-started)
 1. [Contributing](#contributing)
-1. [Advanced Configuration Options](#advanced-configuration-options)
+1. [Seed nodes of Emerald Crypto Coin project](#seed-nodes)
 1. [Licensing](#licensing)
 
 ## Requirements
@@ -142,9 +142,16 @@ The `config.php` file also contains lots of options to control how the applicati
 
   *  **Do not** disable cache unless you either have an alternative mechanism or your node is protected from potential DDoS attacks.
 
+## Seed Nodes
+
+Seed nodes of Emerald Crypto Coin project
+* https://seed1.emeraldcrypto.de/EmeraldNodeStatus/
+* https://seed2.emeraldcrypto.de/EmeraldNodeStatus/
+
 ## Licensing
 
 * Copyright (C) 2015 [Craig Watson](http://www.cwatson.org)
 * Forked and modified 2018 by [Pazor](https://www.emeraldcrypto.de)
 * Distributed under the terms of the [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0) - see [LICENSE file](https://github.com/craigwatson/bitcoind-status/blob/master/LICENSE) for details.
 * [EasyBitcoin-PHP library](https://github.com/aceat64/EasyBitcoin-PHP) is reproduced under the terms of the [MIT licence](http://opensource.org/licenses/MIT) and is used from commit [670414e](https://github.com/aceat64/EasyBitcoin-PHP/tree/670414e1b733e11bb7bdf4fcb17169853301716b).
+
